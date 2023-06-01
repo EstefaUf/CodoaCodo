@@ -1,0 +1,89 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+ 
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.Oradores {
+
+display: flex;
+flex-direction: row;
+
+}
+
+.orador {
+    width: 25%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.orador img {
+    width: 100%;
+    
+}
+
+.descripcion {
+    margin: 1rem;
+}
+.botones {
+    margin-bottom: .7rem;
+
+}
+
+.btnAmarillo {
+    background-color: rgb(254,193,6);
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: .3rem .5rem;
+    font-size: .7rem;
+
+}
+.btnAmarillo > a {
+    color: black;
+}
+
+.btnAzul {
+    background-color: rgb(23,162,183);
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: .3rem .5rem;
+    font-size: .7rem;
+}
+.btnAzul > a {
+    color: white;
+}
+
+.orador .titulo {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: rgb(98, 105, 106);
+}
+
+.orador.texto{
+    text-align: justify;
+    line-height: 1.3rem;
+    font-size: .8rem;
+
+}
+
+
+.row {
+        display: flex;
+        width: 100%;
+     }
+.col1 {
+        background: grey;
+        width: 15%;
+ }
+.col2 {
+        border: white;
+        background: rgb(0, 0, 0);
+        width: 85%;
+        color: aliceblue;
+}
+ 
